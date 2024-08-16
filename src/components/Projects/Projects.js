@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/leaf.jpg";
+import emotion from "../../Assets/Projects/emotion.jpg";
+import editor from "../../Assets/Projects/codeEditor.jpg";
+import chatify from "../../Assets/Projects/chatify.jpg";
+import suicide from "../../Assets/Projects/suicide.jpg";
+import bitsOfCode from "../../Assets/Projects/blog.jpg";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/punisher1k99/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="SocialPulse"
+              description="Developed SocialPulse, a social media platform utilizing ReactJS, NextJS, and TailwindCSS for a responsive and modern user interface. Integrated Appwrite for secure authentication and user login, ensuring a seamless user experience. The platform supports user-generated content and interactive social networking features."
+              ghLink="https://github.com/punisher1k99/SocialPulsev2"
+              demoLink="https://socialpulsev3.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/punisher1k99/Bits-0f-C0de"
-              demoLink=""
+              title="BizQuantum"
+              description="At BizQuantum, I built a platform dedicated to making knowledge accessible to everyone. Our free online courses empower learners with essential skills in business analytics, catering to budding entrepreneurs, marketing enthusiasts, and IT professionals. The curated content covers vital areas in business analytics, ensuring learners gain practical, industry-relevant knowledge"
+              ghLink="https://github.com/punisher1k99/BizQuantum"
+              demoLink="https://biz-quantum.vercel.app/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/punisher1k99/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="NF Infratech"
+              description="I developed a professional website for NF Infratech, a company specializing in urban infrastructure projects. The site, built with modern web technologies, showcases the company's portfolio, services, and expertise. It features a clean, user-friendly design, optimized for performance and accessibility, ensuring a seamless experience for visitors and potential clients."
+              ghLink="https://github.com/punisher1k99/NF-Infratech-T1"
+              demoLink="https://nf-infratech-t1.vercel.app/"              
             />
           </Col>
 
@@ -58,10 +58,11 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/punisher1k99/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Visualter"
+              description="
+I created Visualter, a website designed to provide an immersive visual experience. The platform showcases visually rich content with a clean, minimalist design and smooth navigation. It is optimized for performance and responsiveness, offering users an engaging interface to explore stunning visuals, making it ideal for creative and artistic presentations."
+              ghLink="https://github.com/punisher1k99/VisuAlter-DevHub"
+              demoLink="https://visualter.vercel.app/"
             />
           </Col>
 
@@ -69,10 +70,11 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/punisher1k99/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Vidlyy"
+              description="
+I developed Vidlyy, a YouTube client application, using modern web technologies. The platform allows users to search and stream videos seamlessly through the YouTube API. With a sleek, intuitive interface and responsive design, Vidlyy enhances the user experience by providing fast video access and efficient navigation across devices."
+              ghLink="https://github.com/punisher1k99/Vidlyy"
+              demoLink="https://vidlyy.netlify.app/" 
             />
           </Col>
 
@@ -80,11 +82,11 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/punisher1k99/Face_And_Emotion_Detection"
-              // demoLink=""      <--------Please include a demo link here 
+              title="Haven Furniture"
+              description="
+I designed and developed Haven Furniture's website, an elegant platform that showcases high-quality furniture collections. The site features a visually appealing layout, smooth navigation, and responsive design, enhancing user experience across devices. It effectively highlights the brand's craftsmanship and products, providing potential customers with a seamless browsing and shopping experience."
+              ghLink="https://github.com/punisher1k99/havenfurniture"
+              demoLink="https://havenfurniture.vercel.app/"      
             />
           </Col>
         </Row>
